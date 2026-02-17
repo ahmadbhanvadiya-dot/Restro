@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Meridian Restro</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.png" alt="The Meridian Restro Logo" class="logo-img">
+            <div class="logo-text">The Meridian Restro</div>
+        </div>
+        <div class="tagline">Fine Dining Experience | Authentic Cuisine | Warm Hospitality</div>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Specialties</a>
+        <a href="#cuisines">Cuisines</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section class="section">
+            <h2 id="about">Welcome to The Meridian Restro</h2>
+            <p class="para">
+                Experience culinary excellence at The Meridian Restro, where tradition meets innovation. 
+                Our chef-curated menu features a delightful blend of international and local cuisines, 
+                crafted with the finest ingredients. With an ambiance that exudes elegance and warmth, 
+                our restaurant is the perfect destination for family gatherings, romantic dinners, and 
+                special celebrations. Every dish is prepared with passion and served with impeccable hospitality.
+            </p>
+        </section>
+        
+        <section class="section bar">
+            <h2 id="menu" style="color: black;">Our Specialties</h2>
+            
+            <div class="menu-item">
+                <h3>🍖 Grilled Mediterranean Salmon</h3>
+                <p>Fresh Atlantic salmon fillet with herb-infused olive oil, served with seasonal vegetables and roasted potatoes</p>
+                <div class="price">₹499</div>
+            </div>
+            
+            <div class="menu-item">
+                <h3>🥩 Premium Tenderloin Steak</h3>
+                <p>Prime cut beef tenderloin, cooked to perfection with garlic butter and topped with truffle sauce</p>
+                <div class="price">₹699</div>
+            </div>
+            
+            <div class="menu-item">
+                <h3>🍝 House Special Pasta Carbonara</h3>
+                <p>Creamy Italian pasta with pancetta, egg yolk, and Pecorino Romano cheese, finished with black pepper</p>
+                <div class="price">₹349</div>
+            </div>
+            
+            <div class="menu-item">
+                <h3>🦐 Spiced Garlic Prawns</h3>
+                <p>Succulent prawns sautéed with roasted garlic, ginger, and fresh cilantro over jasmine rice</p>
+                <div class="price">₹569</div>
+            </div>
+            
+            <div class="menu-item">
+                <h3>🥗 Garden Fresh Salad</h3>
+                <p>Mixed greens with seasonal vegetables, feta cheese, and house-made balsamic vinaigrette</p>
+                <div class="price">₹249</div>
+            </div>
+            
+            <div class="menu-item">
+                <h3>🍰 Chocolate Lava Cake</h3>
+                <p>Warm dark chocolate cake with a molten center, served with vanilla ice cream</p>
+                <div class="price">₹199</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 id="cuisines">Cuisines Menu</h2>
+            
+            <!-- Italian Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🇮🇹 Italian Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Risotto Al Tartufo</h4>
+                        <p class="description">Creamy arborio rice infused with black truffle oil and parmesan</p>
+                        <div class="price">₹425</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Osso Buco</h4>
+                        <p class="description">Braised veal shank with white wine and vegetables</p>
+                        <div class="price">₹650</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Panna Cotta</h4>
+                        <p class="description">Silky Italian dessert with berry compote</p>
+                        <div class="price">₹199</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Indian Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🇮🇳 Indian Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Butter Chicken</h4>
+                        <p class="description">Tender chicken in creamy tomato-based sauce with aromatic spices</p>
+                        <div class="price">₹320</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Paneer Tikka Masala</h4>
+                        <p class="description">Grilled cottage cheese in spiced yogurt and cream sauce</p>
+                        <div class="price">₹280</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Biryani Supreme</h4>
+                        <p class="description">Fragrant basmati rice with marinated meat and saffron</p>
+                        <div class="price">₹380</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Tandoori Fish</h4>
+                        <p class="description">Marinated in yogurt and spices, cooked in tandoor oven</p>
+                        <div class="price">₹420</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Asian Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🍱 Asian Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Pad Thai</h4>
+                        <p class="description">Thai stir-fried noodles with shrimp, tofu and roasted peanuts</p>
+                        <div class="price">₹310</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Kung Pao Chicken</h4>
+                        <p class="description">Spicy Chinese dish with diced chicken, peanuts and vegetables</p>
+                        <div class="price">₹290</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Miso Ramen</h4>
+                        <p class="description">Japanese noodle soup with soft-boiled egg and bamboo shoots</p>
+                        <div class="price">₹340</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Vietnamese Pho</h4>
+                        <p class="description">Aromatic beef broth with rice noodles and fresh herbs</p>
+                        <div class="price">₹300</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Continental Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🌍 Continental Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Filet Mignon</h4>
+                        <p class="description">Premium beef tenderloin with red wine reduction</p>
+                        <div class="price">₹750</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Duck L'Orange</h4>
+                        <p class="description">Pan-seared duck breast with orange sauce and vegetables</p>
+                        <div class="price">₹580</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Coq Au Vin</h4>
+                        <p class="description">Chicken braised in burgundy wine with mushrooms</p>
+                        <div class="price">₹450</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Beef Wellington</h4>
+                        <p class="description">Beef tenderloin wrapped in pastry with duxelles</p>
+                        <div class="price">₹720</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Seafood Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🦞 Seafood Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Lobster Thermidor</h4>
+                        <p class="description">Whole lobster with creamy sauce, mushrooms and cheese</p>
+                        <div class="price">₹890</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Grilled Barramundi</h4>
+                        <p class="description">Fresh white fish grilled with lemon butter and herbs</p>
+                        <div class="price">₹510</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Scallops Provençale</h4>
+                        <p class="description">Sea scallops with garlic, herbs and white wine</p>
+                        <div class="price">₹620</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Seafood Platter</h4>
+                        <p class="description">Mix of lobster, shrimp, scallops and grilled fish</p>
+                        <div class="price">₹950</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Vegetarian Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🥬 Vegetarian Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Mushroom Risotto</h4>
+                        <p class="description">Creamy risotto with porcini mushrooms and truffle oil</p>
+                        <div class="price">₹350</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Vegetable Wellington</h4>
+                        <p class="description">Mixed vegetables and lentils wrapped in pastry</p>
+                        <div class="price">₹380</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Eggplant Parmigiana</h4>
+                        <p class="description">Layered eggplant with tomato sauce and cheese</p>
+                        <div class="price">₹280</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Spinach & Ricotta Ravioli</h4>
+                        <p class="description">Fresh pasta with creamy spinach and cheese filling</p>
+                        <div class="price">₹320</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Japanese Cuisine -->
+            <div class="cuisine-section">
+                <h3 class="cuisine-title">🇯🇵 Japanese Cuisine</h3>
+                <div class="cuisine-grid">
+                    <div class="menu-card">
+                        <h4>Premium Sushi Platter</h4>
+                        <p class="description">Assorted nigiri and rolls with fresh salmon, tuna, and vegetable options</p>
+                        <div class="price">₹580</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Crispy Tempura</h4>
+                        <p class="description">Lightly battered vegetables and shrimp, served with dipping sauce</p>
+                        <div class="price">₹420</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Yakitori Skewers</h4>
+                        <p class="description">Grilled chicken skewers glazed with teriyaki sauce and sesame seeds</p>
+                        <div class="price">₹450</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Tonkatsu</h4>
+                        <p class="description">Breaded and fried pork cutlet served with cabbage slaw and sauce</p>
+                        <div class="price">₹520</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Teriyaki Salmon</h4>
+                        <p class="description">Glazed salmon fillet with teriyaki sauce, served with steamed rice</p>
+                        <div class="price">₹550</div>
+                    </div>
+                    <div class="menu-card">
+                        <h4>Edamame & Gyoza</h4>
+                        <p class="description">Steamed soybeans and pan-fried dumplings with dipping sauce</p>
+                        <div class="price">₹280</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 id="contact">Get In Touch</h2>
+            <div class="contact-info">
+                <p><strong>📍 Address:</strong> 171, Attapur, Khayyam Nagar, Rambagh Colony, Hyderabad, Telangana 500048</p>
+                <p><strong>📞 Phone:</strong> 1000000 </p>
+                <p><strong>📧 Email:</strong> info@meridianrestro.com</p>
+                <p><strong>🕐 Hours:</strong></p>
+                <p style="margin-left: 30px;">
+                    Monday - Thursday: 11:00 AM - 10:00 PM<br>
+                    Friday - Sunday: 11:00 AM - 11:30 PM<br>
+                </p>
+                <p style="margin-top: 15px;"><strong>Make a Reservation:</strong> <a href="mailto:info@meridianrestro.com">Click Here</a></p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 The Meridian Restro. All Rights Reserved.</p>
+        <p>Crafted with ❤️ for food lovers by food lovers</p>
+        <p> Ownder by Bhanvadia's House<br></p>
+    </footer>
+</body>
+</html>
